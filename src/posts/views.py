@@ -153,11 +153,6 @@ def category_post_list(request, category=None):
 
     context = {
         "category": instance.category,
-
-
-
-
-
         "object_list": queryset,
         "title": "List",
         "page_request_var": page_request_var,
